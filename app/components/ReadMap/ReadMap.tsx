@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from "next/image"; 
 
+//Display Map only
 const ReadMap = () => {
   interface Temperature{
     place: string;
@@ -26,14 +27,16 @@ const ReadMap = () => {
 
      //           console.log(`RGB values at (${x}, ${y}): R=${red}, G=${green}, B=${blue}`);
 
+     
 
 
   return (
     <div>
       <Image src="https://www.met.gov.my/data/radar_peninsular.gif" alt="" width="826" height="640"></Image>
+      <canvas id="myCanvas"></canvas>
     </div>
 
-  )
-}
+  );
+};
 
 export default ReadMap
