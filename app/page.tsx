@@ -13,8 +13,8 @@ export default function Home() {
     <main>
       <Header></Header>
       <h3 className="text-3xl font-bold-underline">Weather Reading System</h3>      
-      <ColorReader place='Gunung Pulai' location={{x:411, y:413}}></ColorReader>
-      <DataReader place='Gunung Pulai'  location={{x:411, y:413}}></DataReader>
+      <ColorReader place='Gunung Pulai' point={{x:229, y:197}}></ColorReader>
+
     </main>
   )
 }
